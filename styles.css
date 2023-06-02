@@ -111,3 +111,30 @@
     width: 160px;  
     margin-bottom: 40px;;
 }
+
+.testimonial-area {
+    display: flex;
+    background-color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.testimonial {
+    
+    flex: 3;
+    
+    font-weight: 300;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.citation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first-box,
+.second-box {
+    flex: 1;
+}
