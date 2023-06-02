@@ -31,6 +31,7 @@
 .hero-section {
     display: flex;
     padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .hero-main {
@@ -47,6 +48,8 @@
 .hero-button {
     background-color: #3882F6;
     border-radius: 10px;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
 }
 
 .left-hero {
@@ -56,6 +59,7 @@
 
 .right-hero {
     padding-right: 100px;
+    /* align-self: center; */
     /* flex: 1; */
 }
 
@@ -87,6 +91,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .boxes {
@@ -139,6 +144,47 @@
     flex: 1;
 }
 
+/* .cta-area {
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+    background-color: #3882F6; 
+    border-radius: 10px;
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.signup-container {
+    margin-left: 80px;
+}
+*/
 .cta-area {
-    
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6; 
+    border-radius: 10px;
+    height: 100px;
+    color: #E5E7EB;
+}
+
+#btn-signup {
+    margin-left: 50px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    width: 80px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 60px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
